@@ -1,6 +1,6 @@
 import { MessageBody, SubscribeMessage, WebSocketGateway, WebSocketServer } from "@nestjs/websockets";
 
-@WebSocketGateway()
+@WebSocketGateway({cors: '*'})
 export class getway{
 
 @WebSocketServer()

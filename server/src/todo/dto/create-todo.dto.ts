@@ -1,7 +1,7 @@
-import { IsString } from "class-validator";
+// import { IsString } from "class-validator";
 
 export class CreateTodoDto {
     
-    @IsString()
+    // @IsString()
     title: string;
 }
